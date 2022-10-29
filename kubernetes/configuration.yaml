@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-html-configmap
+data:
+  index.html:
+    <html>
+    <h1>Welcome</h1>
+    </br>
+    <h1> Abeer Kamal from ITI Track DevOps Say Hello World </h1>
+    </html>
